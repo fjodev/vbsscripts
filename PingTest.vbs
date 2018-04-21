@@ -1,13 +1,13 @@
 ' ********************************************************************
 ' ** Ficheiro:          PingTest.vbs                                **
-' ** Função:            Testa ligação por ping                      **
+' ** FunÃ§Ã£o:            Testa ligaÃ§Ã£o por ping                      **
 ' ** Sintase:           cscript PingTest.vbs [fich_log] [fich_end]  **
 ' ** Autor:             Fernando Oliveira                           **
 ' ** Data:              07-03-2008                                  **
 ' ********************************************************************
 
 ' ************************************************
-' ** Variaveis, constantes e outras declarações **
+' ** Variaveis, constantes e outras declaraï¿½ï¿½es **
 ' ************************************************
 
 const ForReading = 1
@@ -34,7 +34,7 @@ Dim aMachinesIP()
 Set objFSO = CreateObject("Scripting.FileSystemObject")
 
 ' ******************************************
-' ** Obtém a lista de IP's a testar       **
+' ** Obtï¿½m a lista de IP's a testar       **
 ' ******************************************
 
 if objFSO.FileExists(strFile2) Then
@@ -87,7 +87,7 @@ Set IPConfigSet = objWMIService.ExecQuery _
 
 ' **********************************************************
 ' ** Ciclos de ping's                                     **
-' ** por cada ip de origem é realizado um ciclo de ping   **
+' ** por cada ip de origem ï¿½ realizado um ciclo de ping   **
 ' ** para cada ip da lista de destinos                    ** 
 ' **********************************************************
 

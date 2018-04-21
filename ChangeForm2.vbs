@@ -8,13 +8,13 @@ Sub ChangeForm()
    Numitems = Curfolder.Items.Count
 
    
-   ' Confirma acÁ„o
-   resposta = MsgBox("Ser„o alterados " & Numitems & " itens na pasta " _
+   ' Confirma a√ß√£o
+   resposta = MsgBox("Ser√£o alterados " & Numitems & " itens na pasta " _
     & Curfolder & ". Deseja continuar?", _
     vbYesNo, "Mudar para " & NewForm)
    If resposta = vbYes Then
-       ' DefiniÁ„o do novo formul·rio
-       usernewform = InputBox("Novo formul·rio", "AlteraÁ„o de formul·rio")
+       ' Defini√ß√£o do novo formul√°rio
+       usernewform = InputBox("Novo formul√°rio", "Altera√ß√£o de formul√°rio")
        If usernewform = "" Then
            End
        End If

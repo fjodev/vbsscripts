@@ -1,6 +1,6 @@
 ' *****************************************************************
 ' * Ficheiro:          LogBook.vbs                                *
-' * Função:            Registo de eventos em ficheiro             *
+' * FunÃ§Ã£o:            Registo de eventos em ficheiro             *
 ' * Sintase:           LogBook.vbs [[nome_ficheiro] texto]        *
 ' * Autor:             Fernando Oliveira                          *
 ' * Data:              23-01-2006                                 *
@@ -29,7 +29,7 @@ Else
 End If
 
 '******************************************************
-'* Verifica se o ficheiro existe e se necessário cria-o
+'* Verifica se o ficheiro existe e se necessï¿½rio cria-o
 '******************************************************
 
 Set objFSO = CreateObject("Scripting.FileSystemObject")
@@ -38,7 +38,7 @@ If objFSO.FileExists(strFicheiro) Then
     set objTF1 = objFSO.OpenTextFile(strFicheiro, ForAppending)
 Else
     set objTF1 = objFSO.CreateTextFile(strFicheiro, True)
-    objTF1.WriteLine "Data" & vbTab & "Utilizador" & vbTab & "Descrição"
+    objTF1.WriteLine "Data" & vbTab & "Utilizador" & vbTab & "DescriÃ§Ã£o"
 End If
 
 '******************************

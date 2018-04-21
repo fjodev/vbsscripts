@@ -1,6 +1,6 @@
 ' ********************************************************************
 ' * Ficheiro:          Del-dir0.vbs                                  *
-' * Função:            Verifica o tamanho de todas sub-directoria    *
+' * FunÃ§Ã£o:            Verifica o tamanho de todas sub-directoria    *
 ' *                    e acaso tenha tamanho 0 paga-as               *
 ' * Sintase:           Del-dir0.vbs drive:caminho\nome_da_directoria *
 ' * Autor:             Fernando Oliveira                             *
@@ -8,7 +8,7 @@
 ' ********************************************************************
 
 ' ************************************************
-' ** Variaveis, constantes e outras declarações **
+' ** Variaveis, constantes e outras declaraï¿½ï¿½es **
 ' ************************************************
 
 On Error Resume Next
@@ -42,7 +42,7 @@ If objFSO.FolderExists(strDirBase) Then
     If objFolder.IsRootFolder then
        Wscript.Echo
        Wscript.Echo "Del-dir0.vbs: directoria invalida."
-       Wscript.Echo "Por segurança, este script não pode ser executada na directoria raiz."
+       Wscript.Echo "Por seguranÃ§a, este script nÃ£o pode ser executada na directoria raiz."
        Wscript.Quit
     End If
     Set colSubfolders = objFolder.Subfolders
@@ -77,5 +77,5 @@ If objFSO.FolderExists(strDirBase) Then
     Wscript.Echo intListDir & " directoria(s) verificada(s)"
     Wscript.Echo intDelDir & " directoria(s) removida(s)"
 Else
-    Wscript.Echo "Del-dir0.vbs: directoria " & strDirBase & " não existe."
+    Wscript.Echo "Del-dir0.vbs: directoria " & strDirBase & " nÃ£o existe."
 End If

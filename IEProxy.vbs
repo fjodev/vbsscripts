@@ -1,6 +1,6 @@
 ' *****************************************************************
 ' * Ficheiro:          IEProxy.vbs                                *
-' * FunÁ„o:            Faz invent·rio das definiÁıes proxy do IE  *
+' * FunÔøΩÔøΩo:            Faz inventÔøΩrio das definiÔøΩÔøΩes proxy do IE  *
 ' * Sintase:           cscript IEProxy.vbs [-n]                   *
 ' * Autor:             Fernando Oliveira                          *
 ' * Data:              19-06-2007                                 *
@@ -9,7 +9,7 @@
 const ForWrite = 2
 const ForAppend = 8
 
-titulo = "          DEFINI«’ES PROXY DO INTERNET EXPLORER"
+titulo = "          DEFINI√á√ïES PROXY DO INTERNET EXPLORER"
 linha = "-----------------------------------------------------------"
 strFile1 = "IEproxy.log"
 strFile2 = "IEproxyxls.txt"
@@ -64,7 +64,7 @@ If OutFile Then
     End If
     Wscript.Echo "--> Resultado registado nos ficheiros " & strFile1 & " e " & strFile2
 Else
-    Wscript.Echo "--> Resultado n„o registado"
+    Wscript.Echo "--> Resultado n√£o registado"
 End If
 
 Wscript.Echo

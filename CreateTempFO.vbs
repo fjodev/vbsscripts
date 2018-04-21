@@ -1,6 +1,6 @@
 ' *****************************************************************
 ' * Ficheiro:          CreateTempFO.vbs                           *
-' * FunÁ„o:            Cria a directoria da variavel TEMPFO       *
+' * Fun√ß√£o:            Cria a directoria da variavel TEMPFO       *
 ' * Sintase:           CreateTempFO.vbs                           *
 ' * Autor:             Fernando Oliveira                          *
 ' * Data:              2006-06-07                                 *
@@ -19,13 +19,13 @@ Set colUserEnvVars = objShell.Environment("System")
 chkPasta = colUserEnvVars(varPasta)
 
 '******************************************************
-'* Se existir a variavel de pasta e a pasta n„o existir
-'*  ent„o È criada uma pasta
+'* Se existir a variavel de pasta e a pasta n√£o existir
+'*  ent√£o √© criada uma pasta
 '******************************************************
 
 If chkpasta ="" Then
-    MsgBox "Variavel de pasta tempor·ria n„o definida", _
-     vbCritical, "CriaÁ„o pasta tempor·ria - " & varPasta
+    MsgBox "Variavel de pasta tempor√°ria n√£o definida", _
+     vbCritical, "Cria√ß√£o pasta tempor√°ria - " & varPasta
     Wscript.Quit
 Else
     Set objFSO = CreateObject("Scripting.FileSystemObject")

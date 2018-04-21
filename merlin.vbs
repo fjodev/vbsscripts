@@ -9,7 +9,7 @@ Set objCharacter = objAgent.Characters.Character(strAgentName)
 objCharacter.Show
 
 objCharacter.Play "GetAttention"
-objCharacter.Speak "Ol·, tudo bem?"
+objCharacter.Speak "Ol√°, tudo bem?"
 objCharacter.Play "LookDown"
 objCharacter.Think "Vou dar uma volta ...."
 objCharacter.MoveTo 500,400

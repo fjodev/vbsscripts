@@ -1,6 +1,6 @@
 ' **************************************************************************
 ' * Ficheiro:          cps.vbs                                             *
-' * FunÁ„o:            copia um ficheiro para v·rias sub-directorias       *
+' * Fun√ß√£o:            copia um ficheiro para v√°rias sub-directorias       *
 ' * Sintase:           cps.vbs ficheiro dir_base dir_sub                   *
 ' * Autor:             Fernando Oliveira                                   *
 ' * Data:              2007-09-04                                          *
@@ -25,14 +25,14 @@ Set objFSO = CreateObject("Scripting.FileSystemObject")
 If objFSO.FileExists(ficheiro) Then
     Wscript.Echo "OK   : " & ficheiro & " existe"
 Else
-    Wscript.Echo "Erro : " & ficheiro & ": ficheiro n„o existe"
+    Wscript.Echo "Erro : " & ficheiro & ": ficheiro n√£o existe"
     Wscript.Quit
 End If
 
 If objFSO.FolderExists(dirbase) Then
     Wscript.Echo "OK   : " & dirbase & " existe"
 Else
-    Wscript.Echo "Erro : " & dirbase & ": directoria n„o existe"
+    Wscript.Echo "Erro : " & dirbase & ": directoria n√£o existe"
     Wscript.Quit
 End If
 	
@@ -45,7 +45,7 @@ For Each objSubfolder in colSubfolders
          Wscript.Echo "OK   : " & ficheiro & " copiado para " & subdir
          nDirOK = nDirOK + 1
     Else
-         Wscript.Echo "Aviso: " & subdir & " n„o existe a directoria"
+         Wscript.Echo "Aviso: " & subdir & " n√£o existe a directoria"
          nDirErr = nDirErr + 1
     End If
 Next

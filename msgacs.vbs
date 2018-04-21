@@ -1,8 +1,7 @@
 ' *****************************************************************
 ' * Ficheiro:          msgacs.vbs                                 *
-' * Função:            Mostra uma mensagem com acs                *
+' * FunÃ§Ã£o:            Mostra uma mensagem com acs                *
 ' * Sintase:           msgacs.vbs Messagem [caracter]             *
-' *                    Se omitido o ficheiro faz inventário local *
 ' * Autor:             Fernando Oliveira                          *
 ' * Data:              2006-02-06                                 *
 ' *****************************************************************

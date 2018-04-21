@@ -1,6 +1,6 @@
 ' *****************************************************************
 ' * Ficheiro:          saida.vbs                                  *
-' * Função:            Mostra uma mensagem com acs                *
+' * Funï¿½ï¿½o:            Mostra uma mensagem com acs                *
 ' * Sintase:           msgacs.vbs Messagem [caracter]             *
 ' * Autor:             Fernando Oliveira                          *
 ' * Data:              2006-02-06                                 *
@@ -9,7 +9,7 @@
 On Error Resume Next
 
 strAgentName = "Merlin"
-strAgentMsg  = "Hora do almoço!"
+strAgentMsg  = "Hora do almoÃ§o!"
 
 Set objShell = WScript.CreateObject("WScript.Shell")
 Set colSystemEnvVars = objShell.Environment("Process")

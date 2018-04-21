@@ -1,6 +1,6 @@
 ' *****************************************************************
 ' * Ficheiro:          DelTempFO.vbs                              *
-' * FunÁ„o:            Remover a directoria TEMPFO                *
+' * Fun√ß√£o:            Remover a directoria TEMPFO                *
 ' * Sintase:           DelTempFO.vbs [Caminho directoria]         *
 ' * Autor:             Fernando Oliveira                          *
 ' * Data:              2006-06-05                                 *
@@ -14,12 +14,12 @@ On Error Resume Next
 
 bytesPasta = 0
 varPasta = "TEMPFO"
-msgBTitulo = "Ficheiros tempor·rios"
+msgBTitulo = "Ficheiros tempor√°rios"
 
 '************************************************************************************
 '* Pasta a apagar
-'* Se È dado argumentos, a pasta a apagar È 1∫ argumento
-'* Se n„o n„o s„o fornecidos argumentos, a pasta a apagar È da variavel de utilizador 
+'* Se s√£o dados argumentos, a pasta a apagar √© o primeiro argumento
+'* Se n√£o s√£o fornecidos argumentos, a pasta a apagar √© da variavel de utilizador 
 '*  definida em varPasta
 '************************************************************************************
 
@@ -32,7 +32,7 @@ Else
 End If
 
 '******************************************************************
-'* Se n„o foi definida variavel a pasta a est· vazia o programa sai
+'* Se n√£o foi definida variavel a pasta a est√° vazia o programa sai
 '******************************************************************
 
 If chkPasta ="" Then
@@ -40,7 +40,7 @@ If chkPasta ="" Then
 End If
 
 '*************************************************
-'* Se a pasta existir e tiver ficheiros È removida
+'* Se a pasta existir e tiver ficheiros √© removida
 '*************************************************
 
 Set objFSO = CreateObject("Scripting.FileSystemObject")

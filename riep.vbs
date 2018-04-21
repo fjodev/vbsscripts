@@ -1,6 +1,6 @@
 ' *****************************************************************
 ' * Ficheiro:          RIEP.vbs                                   *
-' * Função:            Faz inventário das definições proxy do IE  *
+' * FunÃ§Ã£o:            Faz inventÃ¡rio das definiÃ§Ãµes proxy do IE  *
 ' * Sintase:           cscript RIEP.vbs [fich_lista_computadores] *
 ' * Autor:             Fernando Oliveira                          *
 ' * Data:              21-06-2007                                 *
@@ -66,7 +66,7 @@ else
 End If
 Wscript.StdOut.Write(".")
 
-' // Ciclo de Leitura da definições do proxy do IE ***************************************
+' // Ciclo de Leitura da definiï¿½ï¿½es do proxy do IE ***************************************
 
 Do While doLoop
     Set objWMIService = GetObject("winmgmts:" & _

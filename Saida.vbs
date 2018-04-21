@@ -1,6 +1,6 @@
 ' *****************************************************************
 ' * Ficheiro:          saida.vbs                                  *
-' * Função:            Mostra uma mensagem com acs                *
+' * FunÃ§Ã£o:            Mostra uma mensagem com acs                *
 ' * Sintase:           msgacs.vbs Messagem [caracter]             *
 ' * Autor:             Fernando Oliveira                          *
 ' * Data:              2006-02-06                                 *

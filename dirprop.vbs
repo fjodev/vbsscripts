@@ -1,6 +1,6 @@
 ' *****************************************************************
 ' * Ficheiro:          Dirp.vbs                                   *
-' * Função:            lista propriedades de uma directoria       *
+' * FunÃ§Ã£o:            lista propriedades de uma directoria       *
 ' * Sintase:           Dirp.FO.vbs [nome_da_directoria]           *
 ' * Autor:             Fernando Oliveira                          *
 ' * Data:              2007-05-16                                 *
@@ -26,12 +26,12 @@ If objFSO.FolderExists(chkPasta) Then
    if objFolder.IsRootFolder then
        eraiz="Sim"
    else
-       eraiz="Não"
+       eraiz="NÃ£o"
    end if
-   Wscript.echo "É directoria raiz : " & eraiz
-   Wscript.echo "Data criação      : " & objFolder.DateCreated
-   Wscript.echo "Último acesso     : " & objFolder.DateLastAccessed
-   Wscript.echo "Última modificação: " & objFolder.DateLastModified
+   Wscript.echo "Ã‰ directoria raiz : " & eraiz
+   Wscript.echo "Data criaÃ§Ã£o      : " & objFolder.DateCreated
+   Wscript.echo "Ãšltimo acesso     : " & objFolder.DateLastAccessed
+   Wscript.echo "Ãšltima modificaÃ§Ã£o: " & objFolder.DateLastModified
    Wscript.echo "Drive             : " & objFolder.Drive
    Wscript.echo "Directoria pai    : " & objFolder.ParentFolder
    Wscript.echo "Caminho           : " & objFolder.Path
@@ -55,7 +55,7 @@ If objFSO.FolderExists(chkPasta) Then
        if atribp then
            wscript.stdout.write separap  
        end if
-       wscript.stdout.write "Directorio "
+       wscript.stdout.write "DirectÃ³rio "
        atribp = True
    End If  
    If objA AND 32 Then
@@ -72,5 +72,5 @@ If objFSO.FolderExists(chkPasta) Then
        wscript.stdout.write "Comprimido "
    End If
 else
-   wscript.echo "Directoria não existe"
+   wscript.echo "Directoria nÃ£o existe"
 End If

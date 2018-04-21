@@ -1,6 +1,6 @@
 ' *****************************************************************
 ' * Ficheiro:          Notify.vbs                                 *
-' * Função:            Produz som                                 *
+' * FunÃ§Ã£o:            Produz som                                 *
 ' * Sintase:           Notify.vbs                                 *
 ' * Autor:             Fernando Oliveira                          *
 ' * Data:              2007-06-26                                 *
@@ -16,7 +16,7 @@ strSoundFile = "C:\windows\Media\Notify.wav"
 strCommand = "sndrec32 /play /close " & chr(34) & strSoundFile & chr(34)
 
 '**********************************
-'* Execução do som
+'* ExecuÃ§Ã£o do som
 '**********************************
 
 Set objShell = WScript.CreateObject("WScript.Shell")
