@@ -8,7 +8,7 @@
 ' ********************************************************************
 
 ' ************************************************
-' ** Variaveis, constantes e outras declara��es **
+' ** Variaveis, constantes e outras declarações **
 ' ************************************************
 
 On Error Resume Next

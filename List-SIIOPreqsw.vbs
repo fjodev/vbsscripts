@@ -1,8 +1,8 @@
 ' *****************************************************************
 ' * Ficheiro:          rlssw.vbs                                  *
-' * FunÁ„o:            Faz invent·rio do software dum computador  *
+' * Fun√ß√£o:            Faz invent√°rio do software dum computador  *
 ' * Sintase:           rlssw.vbs [nome_ficheiro]                  *
-' *                    Se omitido o ficheiro faz invent·rio local *
+' *                    Se omitido o ficheiro faz invent√°rio local *
 ' * Autor:             Fernando Oliveira                          *
 ' * Data:              24-01-2006                                 *
 ' *****************************************************************

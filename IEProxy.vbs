@@ -1,6 +1,6 @@
 ' *****************************************************************
 ' * Ficheiro:          IEProxy.vbs                                *
-' * Fun��o:            Faz invent�rio das defini��es proxy do IE  *
+' * Função:            Faz inventário das definições proxy do IE  *
 ' * Sintase:           cscript IEProxy.vbs [-n]                   *
 ' * Autor:             Fernando Oliveira                          *
 ' * Data:              19-06-2007                                 *
